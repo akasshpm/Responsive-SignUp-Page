@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In & Sign Up</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="./images/icon.webp">
+</head>
+<body>
+    <div class="form-wrapper">
+        <div class="form-container">
+            <div class="form-slide sign-in-slide">
+                <h1 style="text-align: center;">Sign In</h1>
+                <form id="sign-in-form"><br>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required><br><br>
+                    <a href="#" class="forgot-password">Forgot your password ?</a><br>
+                    <button type="submit">Sign In</button>
+                    <p class="dont">Don't have an account ? <a href="#" class="toggle-form" data-target="sign-up">Sign Up</a></p>
+                </form>
+            </div>
+            <div class="form-slide sign-up-slide">
+                <h1 style="text-align: center;">Sign Up</h1>
+                <form id="sign-up-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="Confirm Password" required><br><br>
+                    <button type="submit">Sign Up</button><br><br>
+                    <p class="already">Already have an account? <a href="#" class="toggle-form" data-target="sign-in">Sign In</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
