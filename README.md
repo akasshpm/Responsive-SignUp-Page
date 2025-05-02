@@ -1,7 +1,7 @@
 
 ---
 
-# Responsive Sign Up Page
+# Responsive Sign-Up Page
 
 Welcome to the Responsive Sign Up project! This project showcases a user interface and interactive design of a website Sign In and Sign Up page.
 
